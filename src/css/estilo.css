@@ -1,0 +1,565 @@
+body{
+  background: #cccdd3;
+}
+
+.contenedor-editor {
+  display: flex;
+  flex-direction: column;
+}
+
+.imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-logo {
+  width: 300px;
+  padding: 2em;
+}
+
+.btn-icon {
+  border: none;
+  background: transparent;
+}
+.btn-color {
+  background-color: #f2a152;
+  color: #2d2f3b;
+}
+.btn-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-editar {
+  cursor: pointer;
+  /*margin-left: 80px;*/
+}
+
+.btn-delete {
+  cursor: pointer;
+}
+
+.btns-edition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cursos-id > h1{
+  text-align: center;
+  color:  #f38115;
+  margin-bottom: 0;
+}
+
+.sub-head{
+ 
+  margin-top: 40px;
+}
+
+.contenedor-cursos > h2{
+  padding-top: 50px;
+}
+
+.img-admin{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/**Modal**/
+.edicion-curso > h2 {
+  color: #2d2f3b;
+  padding: 0 5%;
+}
+
+.form-group {
+  padding: 0 5%;
+}
+
+/****Icono agregar***/
+
+.sub-head{
+  display: flex;
+  justify-content: space-between;
+}
+
+/*** MODULO DE NOTICIA ***/
+
+.contenedorN{
+
+  margin: 0 auto;
+}
+
+.tit-crear-n > h1{
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 20px;
+  color: #f38115;
+}
+
+.contenedorN {
+  background: linear-gradient(
+    0deg,
+    rgba(217, 217, 217, 1) 0%,
+    rgba(230, 230, 230, 1) 35%,
+    rgba(246, 246, 246, 1) 100%
+  );
+  width: 1100px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  margin-bottom: 50px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+}
+
+#cursos-id > div.accordion.accordion-flush > div > h2 > button{
+  font-weight: bold;
+}
+
+#cursos-id > div.sub-head > div > button{
+  margin-right: 100px;
+}
+
+body > div.contenedorN > div > div.btn-not{
+  margin-left: 430px;
+}
+
+.categorias-visor{
+  width: 70%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150px;
+}
+
+
+.news-visor{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150px;
+}
+
+.retorno-creacion > a{
+  text-decoration: none;
+  position: relative;
+  bottom: 25px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+
+/*MMMMMMMMMMMMMMMM MODULO ADMIN MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
+
+.contenedor{
+  background: gray;
+}
+
+.container-nav {
+  padding: 18px;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.container-nav ul {
+  margin-right: 10%;
+}
+.container-nav li {
+  list-style: none;
+  display: inline-flex;
+}
+
+.container-nav li a {
+  text-decoration: none;
+  padding: 14px 20px;
+  font-size: 20px;
+  color: darkslategray;
+  display: inline-block;
+  text-align: center;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in;
+  font-family: "Play", sans-serif;
+}
+
+.container-nav li a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: black;
+}
+
+.img-admin > a{
+  text-decoration: none;
+  color: #f38115;
+  text-align: center;
+}
+
+body > div.img-admin > ul > li{
+  list-style-image: url("./../img/favicon.ico");
+}
+
+body > div.img-admin > ul > li > a{
+  text-decoration: none;
+  color: #f38115;
+}
+
+#cursos-id > div:nth-child(3) > ul > li{
+  list-style-image: url("./../img/favicon.ico");
+}
+
+#cursos-id > div:nth-child(5) > ul > li{
+  list-style-image: url("./../img/favicon.ico");
+}
+
+#cursos-id > div:nth-child(3) > ul > li > a{
+  text-decoration: none;
+  color: #f38115;
+}
+
+#cursos-id > div:nth-child(5) > ul > li > a{
+  text-decoration: none;
+  color: #f38115; 
+}
+
+body > div.img-admin{
+  margin-left: 30%;
+}
+
+body > div.img-admin > ul > li:nth-child(1) > a > h1{
+  margin-bottom: 40px;
+}
+
+#cursos-id > div:nth-child(3) > ul > li{
+  margin-bottom: 40px;
+}
+
+#cursos-id > div:nth-child(3){
+  margin-left: 30%;
+}
+
+#cursos-id > div:nth-child(5){
+  margin-left: 30%;
+}
+
+.img-admin > h1{
+  text-decoration: none;
+  color: #f38115;
+  text-align: center;
+}
+
+#cursos-id > div.sub-head > div{
+  margin-left: 1050px;
+}
+
+#cursos-id > div.accordion.accordion-flush{
+  width: 70%;
+}
+
+body > div.contenedorN > div > div.btn-not{
+  margin-left: 430px;
+}
+
+#cursos-id > div.container-nav > ul{
+  display: contents;
+}
+
+#root > div > div > div.img-admin > img{
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.group-btn{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.ilapLogo{
+  margin-right: 450px;
+  width: 150px;
+}
+
+#root > div > div > div.container-nav > img{
+  margin-right: 450px;
+  width: 150px;
+}
+
+#cursos-id > div.container-nav > img{
+  margin-right: 450px;
+  width: 150px;
+}
+
+#creacionNews{
+  display: block;
+}
+
+#edicionNews{
+  display: none;
+}
+
+#edicionNews2{
+  display: block;
+}
+
+#viewsCategorias{
+  display: none;
+}
+
+#viewsCursos{
+  display: none;
+}
+
+#viewsCategorias > div.accordion.accordion-flush > div > h2 > button{
+  font-weight: bold;
+}
+
+#edicionNews > div.accordion.accordion-flush > div > h2 > button{
+  font-weight: bold;
+}
+
+#edicionNews > div.accordion.accordion-flush{
+  width: 85%;
+}
+
+#viewsCursos > div.accordion.accordion-flush > div:nth-child(n) > h2 > button{
+  font-weight: bold;
+}
+
+#cursos-id > div:nth-child(4){
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#viewsCategorias > div.btns-edition{
+  display: flex;
+  justify-content: left;
+}
+
+#viewsCategorias{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#viewsCursos{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#viewsCursos > div.retorno-creacion > a{
+  margin-bottom: 100px;
+}
+
+body > div:nth-child(3){
+  margin-top: 150px;
+  margin-bottom: 25px;
+}
+
+#edicionNews{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+}
+
+#edicionNews > div.accordion.accordion-flush{
+  margin-bottom: 50px;
+}
+
+#creacionNews > div > div{
+  display: flex;
+  justify-content: center;
+}
+
+#edicionNews2 > div > div{
+  display: flex;
+  justify-content: center;
+}
+
+#cursos-id > div:nth-child(3){
+  margin-top: 150px;
+  margin-bottom: 25;
+}
+
+#example-custom-modal-styling-title{
+  color: #f38115;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/*MMMMMMMMMMMMMMMMMMMMMMMM RESPONSIVE MMMMMMMMMMMMMMMMMMMMMMMMM*/
+
+
+@media screen and (max-width: 760px) {
+  
+  #root > div > div > div.imagen > img{
+    padding-left: 0;
+    width: 200px;
+  }
+  
+  #root > div > div > div.row.mt-5{
+    display: block;
+  }
+  
+  #cursos-id > div.sub-head > div{
+    margin-left: 250px;
+  }
+  
+  #cursos-id > div.container-nav{
+    display: block;
+  }
+
+  #cursos-id > div.accordion.accordion-flush{
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+
+  #root > div > div > div.img-admin > img{
+    width: 250px;
+    margin-left: 45px;
+  }
+  
+  #root > div > div > div.container-nav{
+    display: inline-table;
+  }
+
+  #root > div > div > div.container-nav > img{
+    width: 100px;
+  }
+
+  #root > div > div > div.container-nav > ul{
+    margin-top: 30px;
+  }
+
+  #root > div > div > div.container-nav > ul{
+    display: grid;
+  }
+  /*mmmmmmmmmmmm creacion de noticias mmmmmmmmmmmmmm*/
+  
+  body > div.container-nav{
+    display: contents;
+  }
+
+  body > div.container-nav > img{
+    width: 120px;
+    margin-right: 0px;
+    margin-left: 40px;
+    margin-top: 30px;
+  }
+
+  body > div.contenedorN{
+    width: auto;
+    margin-top: 50px;
+  }
+
+  body > div.container-nav > ul > li:nth-child(1){
+    margin-top: 50px;
+  }
+
+  body > div.contenedorN > div > div.btn-not{
+    margin-left: 80px;
+  }
+/*mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+  body > div.fade.modal.show > div > div{
+    width: 330px;
+  }
+
+  #cursos-id > div.container-nav{
+    display: contents;
+  }
+
+  #cursos-id > div.container-nav > img{
+    width: 120px;
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+
+  .col-acciones{
+    width: 25%;
+  }
+
+  .ilapLogo{
+    margin-right:0;
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+
+  #root > div > div > div.container-nav > img{
+    margin-right: 10px;
+  }
+
+  #cursos-id > div.container-nav > img{
+    margin-right: 10px;
+  }
+
+  #cursos-id > div.sub-head > div > button{
+    margin-right: 8px;
+  }
+
+  body > div.container-nav > img{
+    margin-right: 10px;
+  }
+ /*MMMMMMMMMMMMMMM Ultima Modificacion MMMMMMMMMMMMMMMM*/
+ 
+ #viewsCategorias{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#viewsCursos{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body > div:nth-child(3){
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#cursos-id > div:nth-child(3){
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#edicionNews{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+}
+
+#creacionNews, #edicionNews2{
+  width: auto;
+}
+
+#cursos-id > div:nth-child(3){
+  margin-left: 20%;
+}
+
+#cursos-id > div:nth-child(5){
+  margin-left: 20%;
+}
+
+body > div.img-admin{
+  margin-left: 0;
+}
+ 
+ 
+}
+
+@media screen and (min-width: 100px) and (max-width: 512px) {
+  body{
+    width: 50vh !important;
+  }
+}
